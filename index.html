@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>La Aplicacion</title>
+</head>
+<body>
+    <header class="flex">
+        <h1>Bienvenido al sistema de ilegalidad documentaria personal</h1>
+    </header>
+    <main>
+        <section class="">
+            <form class="flex agregar" action="#" id="frmDatos">
+                <div>
+                <label for="txtNombre">Nombre Completo: </label>
+                    <input type="text" name="txtNombre" id="txtNombre">                    
+                </div>
+                <div>
+                 <label for="txtDni">Nº Documento:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                    <input type="number" name="txtDni" id="txtDni">                   
+                </div>
+                <div>
+                    <label for="radiop_1">Puede </label>
+                        <input type="radio" name="radiopermite" id="radiop_1">
+                    <label for="radiop_2">No puede </label>
+                        <input type="radio" name="radiopermite" id="radiop_2">                    
+                </div>
+                <div>
+                    <input type="submit" value="Agregar nuevo">
+                </div>
+                <div class="resultado" id="resultado"></div>
+            </form>
+        </section>
+        <section class="flex menu">
+            <div class="busqueda">
+                <input type="text" id="txtBusqueda">
+                <input type="button" value="Buscár" id="bbuscar">
+            </div>    
+            <div class="tabla">
+                <h2>Listado</h2>
+                
+                    <div id="listado_"></div>
+                            
+            </div>
+      </section>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js.js"></script>
+</body>
+</html>

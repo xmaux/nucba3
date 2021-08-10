@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display:flex;
+    flex-direction:row-reverse;
+}
+
+header{
+    background-color: #3A86FF;
+    color: #FFBE0B;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    margin-top: 2px;
+}
+
+.menu{
+    border: 1px solid #8338EC;
+    padding: 1em;
+    gap: 2em;
+    height: auto;
+    justify-content: space-between;
+}
+
+.agregar{
+    background-color: #FFBE0B;
+    padding: 1em;
+    gap: 0.5em;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.busqueda{
+    /* width: 25%; */
+}
+
+.resultado{
+    color: red;
+}
+
+table{
+    width: 100%;
+    border: 1px solid red;
+}
+
+.tabla {
+    width: 30%;
+}
