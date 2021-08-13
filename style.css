@@ -39,6 +39,11 @@ section{
     /* border: 1px solid red; */
 }
 
+.textbox{
+    width: 280px;
+    justify-content: space-between;
+}
+
 .busqueda{
     /* width: 25%; */
 }
@@ -67,6 +72,7 @@ section{
     background-color:#3A86FF;
     margin-top: 2px;
     margin-left: 2px;
+    font-weight: bold;
 
     justify-content: center;
     align-items: center;
