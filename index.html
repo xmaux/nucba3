@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="flex">
-        <h1>Bienvenido al sistema de ilegalidad documentaria personal</h1>
+        <h1>Bienvenido</h1>
     </header>
     <main>
         <section class="">
@@ -24,7 +24,7 @@
                 </div>
                 <div>
                     <label for="radiop_1">Puede </label>
-                        <input type="radio" name="radiopermite" id="radiop_1">
+                        <input type="radio" name="radiopermite" id="radiop_1" checked>
                     <label for="radiop_2">No puede </label>
                         <input type="radio" name="radiopermite" id="radiop_2">                    
                 </div>
@@ -39,15 +39,20 @@
                 <input type="text" id="txtBusqueda">
                 <input type="button" value="Buscár" id="bbuscar">
             </div>    
-            <div class="tabla">
-                <h2>Listado</h2>
-                
-                    <div id="listado_"></div>
-                            
+        </section>
+        <section class="flex menu">
+            <div class="tarjetas">
+                <div>
+                    <h2>Personas Agendadas</h2>
+                </div>
+                <div class="flex listado" id="listado_"></div>
+<!--                 <div class="flex tarjeta">
+                    <p>Roberto perez</p>
+                    <p>32123123</p>
+                    <p>Si</p>
+                </div> -->
+                <!-- <div id="listado_"></div> -->
             </div>
-      </section>
-        <section>
-
         </section>
     </main>
     <footer>

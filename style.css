@@ -21,7 +21,7 @@ section{
 }
 
 .menu{
-    border: 1px solid #8338EC;
+    /* border: 1px solid #8338EC; */
     padding: 1em;
     gap: 2em;
     height: auto;
@@ -47,11 +47,33 @@ section{
     color: red;
 }
 
-table{
+.tarjetas{
     width: 100%;
-    border: 1px solid red;
+    /* border: slateblue solid 1px; */
+
 }
 
-.tabla {
-    width: 30%;
+.listado {
+    justify-content: left;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.tarjeta{
+    border: #FFBE0B 1px solid;
+    border-radius: 1em;
+    width: 8em;
+    height: 8em;
+    background-color:#3A86FF;
+    margin-top: 2px;
+    margin-left: 2px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarjeta p{
+    gap: 0.5em;
+    padding: 0.5em;
 }
